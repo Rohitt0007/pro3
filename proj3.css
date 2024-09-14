@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #eb8192; */
+    padding: 1px 10px;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    /* background-color:green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    /* border: 2px solid grey;     */
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.left {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+.left > img{
+    width: 5%;
+}
+.left > h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.right > button {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+.center{
+    height: 90%;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+}
+.lleft{
+    /* background-color: aquamarine; */
+    width: 50%;
+    height: 100%;
+}
+.lleft > img{
+    margin-top: 10%;
+    width: 80%;
+    transform: rotate(-30deg);
+    margin-left: 10%;
+}
+
+
+.rright{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(pngwing.com\ \(8\).png);
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(254, 254, 251, 0.681);
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+.box >form> input{
+    padding: 1px 10px;
+    border: none;
+    outline: none;
+    /* background-color: transparent; */
+    margin-top: 4px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.box >form> button{
+    margin-top: 10%;
+    margin-left: 25%;
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    font-size: 15px;
+    color:white ;
+}
+hr{
+    border: 0.5px solid black;
+}
+.box >form> h2{
+    margin-bottom: 10px;
+}
+.box >form> label{
+    /* background-color: pink; */
+    font-weight: 500;
+}
+
